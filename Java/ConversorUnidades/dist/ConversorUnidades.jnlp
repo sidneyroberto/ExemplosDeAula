@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ConversorUnidades.jnlp">
+  <information>
+    <title>ConversorUnidades</title>
+    <vendor>sidneysousa</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ConversorUnidades.jar" size="7378" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ConversorUnidades" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="br.edu.ifms.lp2.view.Principal"  name="ConversorUnidades" />
+  <update check="always"/>
+</jnlp>
