@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ExemploBottomUp.jnlp">
+  <information>
+    <title>ExemploBottomUp</title>
+    <vendor>sidneysousa</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ExemploBottomUp.jar" size="14162" download="eager" />
+    <jar href="lib/antlr-2.7.7.jar" size="445288" download="eager" />
+    <jar href="lib/dom4j-1.6.1.jar" size="313898" download="eager" />
+    <jar href="lib/hibernate-commons-annotations-4.0.2.Final.jar" size="81830" download="eager" />
+    <jar href="lib/hibernate-core-4.2.7.Final.jar" size="4640806" download="eager" />
+    <jar href="lib/hibernate-entitymanager-4.2.7.Final.jar" size="484816" download="eager" />
+    <jar href="lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" size="102661" download="eager" />
+    <jar href="lib/javassist-3.18.1-GA.jar" size="714194" download="eager" />
+    <jar href="lib/jboss-logging-3.1.0.GA.jar" size="60768" download="eager" />
+    <jar href="lib/jboss-transaction-api_1.1_spec-1.0.1.Final.jar" size="25215" download="eager" />
+    <jar href="lib/postgresql-42.0.0.jar" size="707261" download="eager" />
+    <jar href="lib/postgresql-9.2-1003.jdbc4.jar" size="580161" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ExemploBottomUp" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="br.edu.ifms.lp3.view.Principal"  name="ExemploBottomUp" />
+  <update check="always"/>
+</jnlp>
